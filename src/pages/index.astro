@@ -1,0 +1,44 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Discover from "../components/Discover.astro";
+import Process from "../components/Process.astro";
+---
+
+<Layout title="Valeriia - l'expérience vr">
+  <main>
+    <h1>Valeriia - l'expérience vr</h1>
+
+    <h2>Découvrir l'expérience</h2>
+    <Discover />
+
+    <h2>La création de l'expérience</h2>
+    <Process />
+  </main>
+
+  <style>
+    main {
+      margin: auto;
+      padding: 1rem;
+      width: 800px;
+      max-width: calc(100% - 2rem);
+      color: black;
+      font-size: 20px;
+      line-height: 1.6;
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      line-height: 1;
+      text-align: left;
+      margin-bottom: 1em;
+    }
+    h2 {
+      font-size: 1.7rem;
+      font-weight: 700;
+      line-height: 1;
+      text-align: left;
+      margin-bottom: 1em;
+    }
+  </style>
+</Layout>

@@ -1,0 +1,191 @@
+---
+
+---
+
+<div class="process">
+  <div class="processTitle">
+    <div class="step">1</div>
+    <h3>Brief du projet</h3>
+  </div>
+  <p>
+    En collaboration avec Valeriia, une des 9 femmes réfugiées ukrainiennes,
+    nous devions mettre en avant son parcours migratoire jusqu’en France.
+    Raconter son histoire, faire passer son message, par tous les moyens
+    possibles, qu’ils soient virtuels ou réels.
+  </p>
+</div>
+
+<div class="process">
+  <div class="processTitle">
+    <div class="step">2</div>
+    <h3>Initiation au street art</h3>
+  </div>
+  <p>
+    Afin d’éveiller notre esprit artistique, nous nous sommes d’abord initié à
+    la pratique du Street art avec l’artiste Ludo Lebaron.
+  </p><p>
+    C’est à Darwin, sur la rive droite de Bordeaux, un lieu créatif et réputé
+    par les street-artistes, que nous nous sommes entraînés. Après avoir
+    découvert les autres créations, nous avons sorti nos pochoirs, réalisés au
+    préalable, afin de graffer le portrait de Valeriia. Bombes de peinture en
+    main, nous avons donné vie à son visage sur les murs du complexe.
+  </p>
+</div>
+
+<div class="process">
+  <div class="processTitle">
+    <div class="step">3</div>
+    <h3>Brainstorming</h3>
+  </div>
+  <p>
+    Après avoir discuté avec Valeriia de son parcours et de ses attentes, il
+    était temps pour nous de faire surgir une idée !
+  </p><p>
+    Son récit nous a captivé. Sa vie en Ukraine avant la guerre, les nombreux
+    problèmes rencontrés lors de son exode, des instants poignants. L’histoire
+    de Valeriia et de son fils Arsenii nous a touchés, on s’est mis à sa place.
+  </p><p>
+    Une expérience de réalité virtuelle était donc pour nous le meilleur moyen
+    de faire revivre son voyage et faire ressentir toutes les émotions qui l’ont
+    accompagné. Car la meilleure façon de faire comprendre l’expérience de
+    Valeriia est de la vivre,
+  </p>
+</div>
+
+<div class="process">
+  <div class="processTitle">
+    <div class="step">4</div>
+    <h3>Création du projet VR</h3>
+  </div>
+  <p>
+    Après avoir pris conscience du matériel que l’on avait à portée de main, et
+    de connaissances que nous avions acquises la semaine précédente, nous étions
+    prêts à ériger les fondations de ce projet
+  </p><p>Nous nous sommes donc répartis en deux groupes distincts :</p>
+  <ul class="content">
+    <li>
+      <span class="primary">Le pôle créatif</span> : chargé d’élaborer l’ambiance
+      générale, rédiger le script, modéliser les éléments 3D, trouver ou enregistrer
+      les divers effets sonores. Leur mission se concentrait avant tout sur l’immersion,
+      visuelle, narrative, et auditive.
+    </li>
+
+    <li>
+      <span class="primary">Le pôle développement</span>: leur premier défi a
+      été de mettre en place tous les paramètres propres à un univers VR via le
+      moteur de jeu Unity. Travaillant conjointement avec le pôle créatif, ils
+      se sont chargés d’intégrer tous les éléments pour créer l’expérience à
+      proprement dit. Effets de lumière, et effets particules étaient également
+      au rendez-vous dans leur arbre de tâches !
+    </li>
+  </ul>
+</div>
+
+<div class="process">
+  <div class="processTitle">
+    <div class="step">5</div>
+    <h3>Mise en place de notre décor</h3>
+  </div>
+  <p>
+    Une fois notre application créée, il était temps de la mettre en place pour
+    l’exposition.
+  </p><p>
+    Afin d’inciter les gens à tester notre expérience, nous avons réutilisé nos
+    connaissances en street art, pour créer tout un décor grâce à de la peinture
+    et 5 grands cubes en carton.
+  </p>
+  <p>
+    Sur les faces nous avons entre autres peint des fleurs ukrainiennes, un
+    dessin d’ombre et de lumière, des portraits de Valeriia. C’était également
+    l’occasion d’y fixer l’affiche de notre projet, et des informations tierces
+    liées à son parcours.
+  </p>
+  <p>
+    En plus de leur utilité artistique, ces cubes nous ont permis de délimiter
+    une “zone de jeu” plus spécifique.
+  </p>
+</div>
+
+<div class="process">
+  <div class="processTitle">
+    <div class="step">6</div>
+    <h3>L’exposition</h3>
+  </div>
+  <p>
+    L’exposition s’est déroulée à l’IUT Bordeaux Montaigne le 26 janvier 2024.
+    L’association Mérignacaise “ La Maison Ukrainienne”, des journalistes, des
+    élus et des étudiants ont pu tester notre expérience en 3D de réalité
+    virtuelle.
+  </p><p>
+    Nous avons eu que de très bons retours. Valeriia était très fière de sentir
+    qu’elle n'était plus invisible et qu’elle avait pu partager son parcours.
+  </p>
+</div>
+
+<style>
+  .process {
+    position: relative;
+    width: 90%;
+    margin-left: auto;
+  }
+  .process p {
+    position: relative;
+    padding-bottom: 10px;
+  }
+  .process p,
+  .process .content {
+    position: relative;
+    padding-bottom: 10px;
+  }
+
+  .process p:last-child,
+  .process .content:last-child {
+    padding-bottom: 0;
+  }
+  .process p::after,
+  .process .content::after {
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 100%;
+    background-color: black;
+    left: -26px;
+    transform: translateX(-50%);
+    top: 0;
+  }
+
+  .step {
+    position: absolute;
+    left: -10px;
+    transform: translate(-100%);
+
+    width: 30px;
+    height: 30px;
+    display: grid;
+    place-items: center;
+    border: 2px solid black;
+    border-radius: 50%;
+    font-weight: bold;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  li {
+    position: relative;
+  }
+  li::after {
+    position: absolute;
+    left: -26px;
+    top: 12px;
+    content: "";
+    border-radius: 50px;
+    transform: translateX(-50%);
+    background-color: black;
+    width: 8px;
+    height: 8px;
+  }
+</style>

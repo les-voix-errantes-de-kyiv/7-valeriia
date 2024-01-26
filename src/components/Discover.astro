@@ -1,0 +1,54 @@
+---
+import Button from "./Button.astro";
+import Github from "../icons/Github.astro";
+import Download from "../icons/Download.astro";
+---
+
+<div class="content">
+  <p>
+    Vous êtes dans la peau de Valeriia, une mère ukrainienne de 37 ans qui se
+    retrouve<span class="primary"> forcée de fuir</span> son pays avec son fils,
+    Arsenii, après le début des
+    <span class="primary">attaques russes.</span><br /><br /> Suivez son voyage qui
+    a débuté en Ukraine, et qui l’a mené jusqu’en France. Découvrez les difficultées
+    qu’elle a rencontré et qu’elle rencontre encore aujourd'hui.<br /><br /> En écoutant
+    et vivant son histoire, vous lui permettez de <span class="primary"
+      >ne pas la laisser sombrer dans l’oubli.</span
+    >
+  </p>
+
+  <div class="ctas">
+    <Button color="#FFFFFF">
+      <Github />
+      <span class="ctaContent github">accéder au projet</span>
+    </Button>
+
+    <Button>
+      <Download />
+      <span class="ctaContent"> télécharger l'expérience</span>
+    </Button>
+  </div>
+</div>
+
+<style>
+  .github {
+    color: black;
+  }
+  .ctaContent {
+    margin-left: 20px;
+  }
+  .ctas {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  .content {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  p {
+    text-align: center;
+  }
+</style>

@@ -1,0 +1,24 @@
+---
+import type { JSX } from "astro/jsx-runtime";
+
+interface Props {
+  color?: string;
+  LeftIcon?: JSX.Element;
+}
+
+const { color, LeftIcon } = Astro.props;
+---
+
+<a class="btn" href="/" style={`background-color: ${color};`}><slot /></a>
+
+<style>
+  .btn {
+    text-decoration: none;
+    padding: 12px 16px;
+    background-color: rgb(37, 99, 244);
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+  }
+</style>
