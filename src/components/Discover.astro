@@ -9,23 +9,34 @@ import Download from "../icons/Download.astro";
     Vous êtes dans la peau de Valeriia, une mère ukrainienne de 37 ans qui se
     retrouve<span class="primary"> forcée de fuir</span> son pays avec son fils,
     Arsenii, après le début des
-    <span class="primary">attaques russes.</span><br /><br /> Suivez son voyage qui
-    a débuté en Ukraine, et qui l’a mené jusqu’en France. Découvrez les difficultées
-    qu’elle a rencontré et qu’elle rencontre encore aujourd'hui.<br /><br /> En écoutant
-    et vivant son histoire, vous lui permettez de <span class="primary"
-      >ne pas la laisser sombrer dans l’oubli.</span
+    <span class="primary">attaques russes.</span>
+  </p>
+
+  <p>
+    Suivez son voyage qui a débuté en Ukraine, et qui l’a mené jusqu’en France.
+    Découvrez les difficultées qu’elle a rencontré et qu’elle rencontre encore
+    aujourd'hui.
+  </p>
+  <p class="centered">
+    En écoutant et vivant son histoire, vous lui permettez de <span
+      class="primary">ne pas la laisser sombrer dans l’oubli.</span
     >
   </p>
 
   <div class="ctas">
-    <Button color="#FFFFFF">
+    <Button
+      color="#FFFFFF"
+      href="https://github.com/les-voix-errantes-de-kyiv/7-valeriia"
+    >
       <Github />
-      <span class="ctaContent github">accéder au projet</span>
+      <span class="ctaContent github">Accéder au projet</span>
     </Button>
 
-    <Button>
+    <Button
+      href="https://drive.google.com/drive/folders/1l5SZRu5eb-tecXK0FNQeNO4qASDrS_kL?usp=drive_link"
+    >
       <Download />
-      <span class="ctaContent"> télécharger l'expérience</span>
+      <span class="ctaContent">Télécharger l'expérience</span>
     </Button>
   </div>
 </div>
@@ -44,11 +55,17 @@ import Download from "../icons/Download.astro";
     margin-top: 20px;
   }
   .content {
-    width: 90%;
     margin: 0 auto;
+    margin-bottom: 60px;
   }
 
   p {
+    text-align: left;
+    margin: 10px 0;
+  }
+  .centered {
+    width: 90%;
     text-align: center;
+    margin-top: 20px;
   }
 </style>
